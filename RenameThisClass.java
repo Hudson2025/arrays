@@ -8,20 +8,16 @@
 public class RenameThisClass
 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        int i = 10;
-        float f = 2.5f;
-        boolean flag = true;
-        f += i;
-        flag = !flag;
-        i += 1;
-        System.out.print (i++);
-        System.out.print (++f);
-        String string1 = "I am a string";
-        String string2 = string1;
-        String string3 = "I am also a string";
-        boolean stringsEqual;
-        string1.compareTo(string3);
-        
+        String[] strArray = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
+        for (int i = 0; i < strArray.length; i++) {
+            System.out.println(strArray[i]);    
+        }
+        for (int i = 0; i < strArray.length; i++) {
+            System.out.print(strArray[i]);
+        }    
+        for (int i = 0; i < strArray.length; i++) {
+            System.out.print(strArray[i]);
+            System.out.print("-");
+        }
     }
-}
+} 
