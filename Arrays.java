@@ -22,7 +22,10 @@ public class Arrays
 
         System.out.println ("\n");
         for (int i = 0; i < strArray.length; i++) {
-            System.out.print(strArray[i] + "-");
+            System.out.print(strArray[i]);
+            if (i < strArray.length-1) {
+                System.out.print("-");
+            }
         }
         
     } 
